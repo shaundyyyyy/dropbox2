@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+ .dropdown-menu {
+	min-width: 200px;
+}
+.dropdown-menu.columns-2 {
+	min-width: 400px;
+}
+.dropdown-menu.columns-3 {
+	min-width: 600px;
+}
+.dropdown-menu li a {
+	padding: 5px 15px;
+	font-weight: 300;
+}
+.multi-column-dropdown {
+	list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.multi-column-dropdown li a {
+	display: block;
+	clear: both;
+	line-height: 1.428571429;
+	color: #333;
+	white-space: normal;
+}
+.multi-column-dropdown li a:hover {
+	text-decoration: none;
+	color: #262626;
+	background-color: #999;
+}
+ 
+@media (max-width: 767px) {
+	.dropdown-menu.multi-column {
+		min-width: 240px !important;
+		overflow-x: hidden;
+	}
+}
+ </style>
+</head>
+<body>
+  <div class="content3">
+	<h1>Trusted by over 700 million<br>registered users and 600,000 teams</h1>
+	<p><ins>View more customer stories.</ins></p>
+  </div>
+  
+  <div class="container3">
+	<div class="swiper-container">
+	  <div class="swiper-wrapper">
+		<div class="swiper-slide"><img src="Img/Pic1.jpg"></div>
+		<div class="swiper-slide"><img src="Img/Pic2.jpg"></div>
+		<div class="swiper-slide"><img src="Img/Pic3.jpg"></div>
+		<div class="swiper-slide"><img src="Img/Pic4.jpg"></div>
+		<div class="swiper-slide"><img src="Img/Pic5.jpg"></div>
+		<div class="swiper-slide"><img src="Img/Pic6.jpg"></div>
+		<div class="swiper-slide"><img src="Img/Pic7.jpg"></div>
+	  </div>
+  
+	  <div class="swiper-pagination"></div>
+	  <div class="swiper-button-prev"></div>
+	  <div class="swiper-button-next"></div>
+	</div>
+  
+	<div class="main-box">
+	  <div id="left-box">
+		<h1>For all things worth sharing.</h1>
+	  </div>
+	  <div id="right-box">
+		<button type="button">Refer a friend</button>
+	  </div>
+	</div>
+  </div>
+  
+</body>
+</html>
