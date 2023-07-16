@@ -108,6 +108,24 @@ img{
   font-size: 10px;
 }
 
+
+
+.container2{
+  padding: 50px;
+  padding-bottom: 20px;
+} 
+
+.textcontainer6 {
+  text-align: center;
+  color: black;
+  margin: 120px;
+}
+
+.textcontainer6{
+  text-align: center;
+  color: black;
+}
+
 .content{
   background: rgb(210, 218, 218);
   width: 100%;
@@ -124,9 +142,9 @@ img{
   }
 
 .accordion{
-  padding: 130px;
+  padding: 50px;
   margin: 20px;
-  width: 800px;
+  width: 700px;
   
 }
 
@@ -149,12 +167,6 @@ img{
   cursor: pointer;
 }
 
-label::before{
-  content: "";
-  margin-right: 10px;
-  font-size: 24px;
-  font-weight: 600;
-}
 
 input[type="radio"]{
   display: none;
@@ -257,7 +269,7 @@ order: 2;
 
 
 .swiper-slide2 img {
-  width: 100%;
+  width: 130%;
 
 }
 
