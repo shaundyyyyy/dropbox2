@@ -117,6 +117,7 @@ img{
 
 .textcontainer6 {
   text-align: center;
+  font-style: arial;
   color: black;
   margin: 120px;
 }
@@ -233,16 +234,6 @@ padding: 5px 20px;
 display: flex;
 } 
 
-#left-box{
-flex: 1;
-order: 1;
-}
-
-#right-box{
-flex: 1;
-order: 2;
-
-}
 .content3 {
   width: 100%;
   position: absolute; 
@@ -250,8 +241,6 @@ order: 2;
   text-align: center;
   color: black;
 }
-
-
 
 .container5{
   width: 125%;
