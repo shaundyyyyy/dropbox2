@@ -97,9 +97,9 @@ img{
   white-space: normal; 
 }
 .nav-link {
-  white-space: nowrap; /* Prevent line breaks */
-  overflow: hidden; /* Hide overflowed text */
-  text-overflow: ellipsis; /* Add ellipsis (...) for clipped text */
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
 }
 .dropdown-menu .dropdown-column {
   width: 100%;
